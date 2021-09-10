@@ -31,3 +31,8 @@ METERID=$(bashio::config 'meter_id')
     echo "    unit_of_measurement: kWh"
     echo "    icon: mdi:transmission-tower"
 } > "${CONFIG}"
+
+bashio::log.info "Starting rtlamr2mqtt server..."
+exec /usr/bin/rtlamr2mqtt.py \
+    -4 -f -d --no-pid \
+    < /dev/null
