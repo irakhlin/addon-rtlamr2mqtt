@@ -14,7 +14,19 @@
   "full_access": true,
   "boot": "auto",
   "environment": {
-    "CONFIG_FILE": "/config/rtlamr2mqtt.yaml"
+    "CONFIG_FILE": "/etc/rtlamr2mqtt.yaml"
+  },
+  "options": {
+    "mqtt_host": "127.0.0.1",
+    "mqtt_user": "user",
+    "mqtt_password": null,
+    "meter_id": 1550337017
+  },
+  "schema": {
+    "mqtt_host": "str",
+    "mqtt_user": "str",
+    "mqtt_password": "str",
+    "meter_id": "int"
   },
   "services": ["mqtt:need"],
   "map": [
