@@ -1,4 +1,4 @@
-ARG BUILD_FROM=irakhlin/rtlamr2mqtt-multiarch
+ARG BUILD_FROM=irakhlin/rtlamr2mqtt:main
 FROM ${BUILD_FROM}
 
 # Copy data
