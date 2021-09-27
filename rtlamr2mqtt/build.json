@@ -1,8 +1,7 @@
 {
   "build_from": {
-    "aarch64": "irakhlin/rtlamr2mqtt-multiarch:latest",
-    "amd64": "irakhlin/rtlamr2mqtt-multiarch:latest",
-    "armhf": "irakhlin/rtlamr2mqtt-multiarch:latest",
-    "armv7": "irakhlin/rtlamr2mqtt-multiarch:latest"
+    "amd64": "irakhlin/rtlamr2mqtt:main",
+    "armhf": "irakhlin/rtlamr2mqtt:main",
+    "armv7": "irakhlin/rtlamr2mqtt:main"
   }
 }
