@@ -11,7 +11,7 @@
   "host_network": false,
   "usb": true,
   "tmpfs": true,
-  "full_access": true,
+  "full_access": false,
   "boot": "auto",
   "environment": {
     "CONFIG_FILE": "/etc/rtlamr2mqtt.yaml"
